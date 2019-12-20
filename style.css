@@ -79,17 +79,17 @@ h3 {
 }
 
 .icon-magnifier{
-  background-image: url('../images/icon-supervisor.svg');
+  background-image: url('icon-supervisor.svg');
 }
 
 .icon-house{
-  background-image: url('../images/icon-team-builder.svg');
+  background-image: url('icon-team-builder.svg');
 }
 .icon-bulb{
-  background-image: url('../images/icon-karma.svg');
+  background-image: url('icon-karma.svg');
 }
 .icon-screen{
-  background-image: url('../images/icon-calculator.svg');
+  background-image: url('icon-calculator.svg');
 }
 
 #container {
