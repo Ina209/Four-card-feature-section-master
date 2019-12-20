@@ -1,0 +1,119 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+h1, h2 {
+  font-size: 28px;
+  margin: 0 0;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header p {
+  width: 60%;
+  margin: auto;
+}
+
+.card p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-top: 10px;
+}
+
+.card {
+  height: 200px;
+  border-top-width: 4px;
+  border-top-style: solid;
+  margin: 20px 15px;
+  padding: 15px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card.push-down {
+  margin-top: 140px;
+}
+
+.card.border-top-color-turquise {
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+.card.border-top-color-red {
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.card.border-top-color-yellow {
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.card.border-top-color-blue {
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.icon-house,
+.icon-magnifier,.icon-bulb, .icon-screen {
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+  background-size: 50px auto;
+}
+
+.icon-magnifier{
+  background-image: url('../images/icon-supervisor.svg');
+}
+
+.icon-house{
+  background-image: url('../images/icon-team-builder.svg');
+}
+.icon-bulb{
+  background-image: url('../images/icon-karma.svg');
+}
+.icon-screen{
+  background-image: url('../images/icon-calculator.svg');
+}
+
+#container {
+  width: 900px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 375px) {
+  #container {
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+    float: none;
+  }
+
+  .card.push-down{
+      margin-top:20px;
+  }
+  h1, h2 {
+    font-size: 20px;
+  }
+  p{
+    font-size: 9px;
+  }
+}
